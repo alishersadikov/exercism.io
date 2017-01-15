@@ -28,7 +28,6 @@ class ComplementTest < Minitest::Test
   end
 
   def test_dna_correctly_handles_invalid_input
-    skip
     assert_equal '', Complement.of_dna('U')
   end
 
@@ -57,7 +56,6 @@ class ComplementTest < Minitest::Test
   # http://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/constants.html
 
   def test_bookkeeping
-    skip
     assert_equal 4, BookKeeping::VERSION
   end
 end
