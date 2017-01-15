@@ -30,28 +30,3 @@ Bob.prototype.hey = function(input) {
 };
 
 module.exports = Bob;
-
-// var response = "Whatever.",     // default response
-//     lastChar = input.charAt(input.length - 1),
-//     isSilence = input.trim() === '',
-//     isShouting = input.toUpperCase() === input && !isSilence,
-//     isAllNumbers = input.search(/(\d+,?\s?)+[\.!\?]*/) != -1,
-//     isQuestion = lastChar === '?',
-//     isExcl = lastChar === '!';
-//
-// if (isShouting && !isAllNumbers) {
-//     response = 'Whoa, chill out!';
-// } else if (isQuestion) {
-//     response = 'Sure.';
-// } else if (isAllNumbers) {
-//     if (isExcl) {
-//         response = 'Whoa, chill out!';
-//     } else {
-//         response = "Whatever.";
-//     }
-// } else if (isSilence) {
-//     response = "Fine. Be that way!";
-// }
-//
-// return response;
-// };
