@@ -38,7 +38,7 @@ describe('count()', function() {
     expect(words.count('go Go GO')).toEqual(expectedCounts);
   });
 
-  xit('counts words with apostrophes', function() {
+  it('counts words with apostrophes', function() {
     var expectedCounts = { 'first': 1, 'don\'t': 2, 'laugh': 1, 'then': 1, 'cry': 1 };
     expect(words.count('First: don\'t laugh. Then: don\'t cry.')).toEqual(expectedCounts);
   });

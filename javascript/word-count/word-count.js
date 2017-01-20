@@ -5,8 +5,8 @@ Words.prototype.count = function(input) {
   var splitWords = input.toLowerCase().replace(/[&\/\\:!@^$%.]/g, '').split(/[ ,]+/);
 
   splitWords.forEach(function(element) {
-    count[element] = count[element] || 0;
-    count[element] += 1;
+    debugger;
+    count[element] = count[element] + 1 || 1;
   });
   return count;
 };
