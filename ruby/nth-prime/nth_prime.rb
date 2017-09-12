@@ -11,6 +11,7 @@ class Prime
       end  
     end 
     
+    # the last element needs to be returned
     primes[nth_prime - 1]
   end
 
